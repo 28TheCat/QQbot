@@ -1,0 +1,14 @@
+[project]
+name = "QQbot"
+version = "0.1.0"
+description = "QQbot"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = ["nonebot_plugin_epicfree", "nonebot_plugin_memes", "nonebot_plugin_memes_api"]
+plugin_dirs = []
+builtin_plugins = []
